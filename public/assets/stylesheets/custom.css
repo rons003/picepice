@@ -1,0 +1,45 @@
+/* your styles go here */
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#pager {
+	width: 100%;
+}
+
+
+#pager > .container-fluid {
+	margin-top: 2rem;
+	padding: 0 1.5rem;
+}
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 30px 30px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+table.dataTable.select tbody tr,
+table.dataTable thead th:first-child {
+  cursor: pointer;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #20203F;
+    border-color: #20203F;
+}
+
+
+.fa-search:before {
+    content: "\f002";
+    color: #fff;
+}
+
+
+.modal-xlg {
+    max-width: 80% !important;
+}
